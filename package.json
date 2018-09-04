@@ -1,0 +1,20 @@
+{
+  "name": "NekobotTMwebsite",
+  "version": "0.0.1",
+  "description": "unfinished site for my bot",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

@@ -1,0 +1,177 @@
+  body
+{
+  background-color:#000000;
+  color:#dddddd;
+  font-family: 'Patua One', cursive;
+  font-size:16px;
+}
+
+a
+{
+  text-decoration: none;
+  color:#dddddd;
+}
+
+
+h1
+{
+  display:inline-block
+  width:300px;
+  font-weight: bold;
+  font-size:30px; 
+  text-align: center;
+  padding:15px 15px 15px 100px;
+  margin-bottom:10px;
+  background-color:#565656;
+  outline-color: darkgray;
+  border-radius:10px;
+  transition: 1s;
+}
+
+p1
+{
+  font-size:10px;
+}
+
+.blank
+{
+ display:block;
+  background-color: #000000;
+  padding:5px 5px 5px 15px;
+  float: left;
+  margin-bottom:10px;
+  border-radius:10px;
+  transition: 1s;
+}
+
+.space
+{
+ display:block;
+  background-color: #000000;
+  padding:5px 5px 5px 170px;
+  float: left;
+  margin-bottom:10px;
+  border-radius:10px;
+  transition: 1s;
+}
+
+.spacer
+{
+ display:block;
+  background-color: #000000;
+  padding:5px 5px 5px 115px;
+  float: left;
+  margin-bottom:10px;
+  border-radius:10px;
+  transition: 1s;
+}
+
+.avatar
+{
+  background-image:url('../imgs/nekobot.png');
+  background-size:72px 72px;
+  background-repeat: no-repeat;
+  align-content: flex-end;
+}
+
+.content
+{
+  width:980px;
+  margin:0px auto;
+}
+
+.top
+{
+align-items: flex-start;
+top: auto;
+}
+
+.btn
+{
+  display:block;
+  background-color: #565656;
+  padding:5px 5px 5px 5px;
+  float: left;
+  margin-bottom:10px;
+  border-radius:10px;
+  transition: 1s;
+}
+
+.button
+{
+  display:block;
+  width:250px;
+  font-weight: bold;
+  font-size:18px; 
+  float: left;
+  padding:5px 5px 5px 45px;
+  background-color:#565656;
+  border-radius:10px;
+  transition: 1s;
+}
+
+.center
+{
+  margin:0px auto;
+  display:inline-block;
+}
+
+.button:hover
+{
+  background-color:#828080;
+}
+
+.discord
+{
+  background-image:url('../imgs/discord-logo.png');
+  background-size:30px 30px;
+  background-repeat: no-repeat;
+}
+
+.client
+{
+  background-image:url('../imgs/nekobot.png');
+  background-size:30px 30px;
+  background-repeat: no-repeat;
+}
+
+.vote
+{
+  background-image:url('../imgs/check_icon.png');
+  background-size:30px 30px;
+  background-repeat: no-repeat;
+}
+
+ul
+{
+  list-style: none;
+  padding-left:0px;
+}
+
+li
+{
+  list-style: none;
+}
+
+li::before
+{
+  content:'✔';
+}
+
+.profile
+{
+  float:right;
+  margin-left:20px;
+}
+
+.profile img
+{
+  width:300px;
+  height:300px;
+}
+
+.dblwidget
+{
+  margin-bottom:10px;
+  display:block;
+}
